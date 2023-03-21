@@ -1,0 +1,184 @@
+body{
+    font-family: 'Roboto', serif;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(124, 0, 52);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(238, 163, 163);
+    
+}
+
+header ul{
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.opcao:hover{
+    color:green
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+
+main {
+    width: 100%; 
+    padding: 0; 
+  }
+  
+  aside {
+    width: 30%; 
+    height: 100vh;
+    padding: 0px; 
+    margin-top: 0px;
+    margin-left: 0px;
+    display: inline;
+    flex-direction: row;
+    align-items: justify;
+  }
+
+  .aside__noticias{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  .aside__titulo{
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+main h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.cards{
+    margin: 0 0 0 5%;
+    width: 90%;
+    display: flex;
+    align-items: left;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    align-content: justify;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    box-shadow: 1px 0px 0px 0px rgb(235, 235, 235);
+}
+
+.card__botao-aside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.card__titulo{
+    text-align: left;
+    margin: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card__imagem{
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.card__imagem-aside{
+    margin: 20px;
+    width: 80%;
+    height: 80%;
+    border-radius: 3px;
+    align-items: center;
+    align-content: center;
+}
+
+.card__paragrafo{
+    margin: 5px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.card__paragrafo-aside{
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card__botao{
+    padding: 10px;
+    margin: 20px;
+    background-color:rgb(121, 211, 86);
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-family:'Roboto', serif;
+    font-size: 17px;
+}
+
+.card__botao-aside{
+    text-align: center;
+    align-items: center;
+    bottom: unset;
+}
+
+.card__botao:hover{
+    background-color: rgb(255, 106, 106); 
+}
+
+.card__categoria{
+    color: red;
+    display: flex;
+    align-self: flex-start;
+    padding: 2%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__copyright{
+    margin: 30px;
+}
+
+.footer__contato{
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;
+    gap: 20px;
+    font-size: 18px;
+}
